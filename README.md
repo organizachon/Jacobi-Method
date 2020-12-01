@@ -75,4 +75,4 @@ python main.py
 ## Usage
 
 ## More
-For further information visit the [Wiki](https://github.com/LBeghini/Hash-Functions/wiki).
+For further information visit the [Wiki](https://github.com/organizachon/Jacobi-Metho/wiki).
