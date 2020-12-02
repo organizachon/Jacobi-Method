@@ -2,7 +2,7 @@
 
 ## About
 
-Jacobi Method is a Linear Algebra application that implements the iteractive Jacobi method algorithm.
+Jacobi Method is a Linear Algebra application that implements the iterative Jacobi method algorithm.
 
 ## Technologies
 
