@@ -5,7 +5,7 @@ def solve(matrix, results, guess, epsilon=1e-10, max_iterations=500):
     diagonal = np.diag(np.diag(matrix))
     lowerAndUpper =  matrix - diagonal
     diagonalInverse = np.diag(1/np.diag(diagonal))
-    for i in range(max_iterations):
+    for _ in range(max_iterations):
         x = np.dot(diagonalInverse, results - np.dot(lowerAndUpper, guess))
         if np.linalg.norm(x - guess) < epsilon:
             return x
