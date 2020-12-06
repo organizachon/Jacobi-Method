@@ -1,8 +1,8 @@
-# Jacobi-Method
+# Gauss-Jacobi Method
 
 ## About
 
-Jacobi Method is a Linear Algebra application that implements the iterative Jacobi method algorithm.
+Gauss-Jacobi Method is a Linear Algebra application that implements the iterative Gauss-Jacobi method algorithm.
 
 ## Technologies
 
