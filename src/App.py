@@ -74,11 +74,11 @@ class App(QDialog):
         msgBox.exec()
 
     def solve(self, matrix, results, guess, epsilon):
-        diagonal = np.diag(np.diag(matrix))
-        lowerAndUpper =  matrix - diagonal
-        diagonalInverse = np.diag(1/np.diag(diagonal))
+        diagonal = np.diag(np.diag(matrix)) 
+        lowerAndUpper =  matrix - diagonal 
+        diagonalInverse = np.diag(1/np.diag(diagonal)) 
         x = copy.deepcopy(guess)
-        for _ in range(500):
+        for _ in range(1000):
             current = np.dot(diagonalInverse, results - np.dot(lowerAndUpper, x))
             if np.linalg.norm(current - x) < epsilon:
                 return current
